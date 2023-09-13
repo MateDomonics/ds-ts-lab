@@ -4,13 +4,13 @@ import {Friend, Colleague, ColleagueHistory} from './myTypes'
 const friend1: Friend = {
     name: "Dylan Fennelly",
     phone: "087-12345",
-    age: 22,
+    age: 21,
   };
   
   const friend2: Friend = {
     name: "Cormac Farrell",
     phone: "086-12345",
-    age: 23,
+    age: 22,
   };
   
   export const friends = [friend1, friend2];
