@@ -5,13 +5,20 @@ interface Friend {
     age: number
 }
 
-const friend1 = {
+interface Colleague {
+    name: string;
+    department: string;
+    email: string;
+    extension: number
+}
+
+const friend1: Friend = {
     name: "Dylan Fennelly",
     phone: "087-12345",
     age: 22,
   };
   
-  const friend2 = {
+  const friend2: Friend = {
     name: "Cormac Farrell",
     phone: "086-12345",
     age: 23,
