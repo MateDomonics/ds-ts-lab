@@ -48,7 +48,7 @@ const friend1: Friend = {
     },
   };
   
-  const colleague3 = {
+  const colleague3: Colleague = {
     name: "Dean Sullivan",
     department: "HR",
     contact: {
