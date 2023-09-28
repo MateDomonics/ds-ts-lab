@@ -72,7 +72,7 @@ console.log("Contact buddy at: ", findBuddyContact(myFootballBuddies, "Ralph Gra
 
 function getBuddyListFriends(list: BuddyList): Friend[] {
     let fList = list.members.reduce(function(f: Friend[], b: Buddy){
-        if(b.hasOwnProperty('age' && 'phone')) {
+        if(b.hasOwnProperty('age' && 'phone')) { //https://stackoverflow.com/questions/1894792/how-to-determine-whether-an-object-has-a-given-property-in-javascript
             f.push(b as Friend);
         }
         return f;
